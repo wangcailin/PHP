@@ -11,5 +11,6 @@ PHP常用技能
  - QR Code
  
 ## 即时通信
+> 应用场景 客服 聊天 监控实时监控数据 群发
  - MeepoPS
  - workerman
