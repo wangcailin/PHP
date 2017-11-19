@@ -8,4 +8,8 @@ PHP常用技能
  - RabbitMQ
  
 ## 生成二维码
-
+ - QR Code
+ 
+## 即时通信
+ - MeepoPS
+ - workerman
