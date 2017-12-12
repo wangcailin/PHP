@@ -18,3 +18,9 @@ PHP常用技能
 ## 抽象画图
 > 应用场景 数据统计 性能统计
  - JpGraph
+
+
+# 安装扩展
+
+#### mcrypt扩展
+yum install libmcrypt libmcrypt-devel php-mcrypt mhash
