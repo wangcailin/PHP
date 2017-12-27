@@ -39,3 +39,5 @@ yum install libmcrypt libmcrypt-devel php-mcrypt mhash
  -  务必使用带引号的字符串做键值(PHP会将没有引号的键值作为常量,产生查找常量的开销)
  
 #### PHP周边问题的优化
+ -  减少文件类的操作(内存>>数据库>磁盘>网络)
+ -  减少PHP发起的网络请求(设置超时时间,将串行请求并行化"使用curl_multi,使用swoole扩展")
