@@ -41,3 +41,6 @@ yum install libmcrypt libmcrypt-devel php-mcrypt mhash
 #### PHP周边问题的优化
  -  减少文件类的操作(内存>>数据库>磁盘>网络)
  -  减少PHP发起的网络请求(设置超时时间,将串行请求并行化"使用curl_multi,使用swoole扩展")
+ -  压缩PHP输出,利:利于我们的数据输出,client端能更快的获取到数据;弊:产生额外的CPU开销(Gzip即可)
+ -  PHP缓存复用(多次请求,内容不变的情况)
+ -  Smarty调优和重叠时间窗口
