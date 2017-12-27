@@ -32,3 +32,6 @@ yum install libmcrypt libmcrypt-devel php-mcrypt mhash
  -  自带函数功能一致的情况下性能不同
  -  禁用错误抑制符@
  -  合理使用内存,及时unset()释放不使用的内存(unset有释放不掉的内存)
+ -  合理使用正则
+ -  避免在循环内做运算(循环内的计算式将会被重复计算)
+ -  减少密集型业务
